@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="contact w-[70vw] h-screen min-w-[900px] text-white" style={{ backgroundImage: `url('/assets/images/gif/noise.gif')` }}>
 
             <div className="bg-[#202428] bg-opacity-95 h-screen min-w-[400px] ">
-                <div className="w-40 h-[2px] bg-white absolute top-[30%] right-[7.8%]"></div>
+                <div className="w-40 h-[2px] bg-white relative top-[30%] left-[0px]"></div>
 
                 <div className="h-full flex flex-col justify-center items-center gap-44 pt-14 ">
 

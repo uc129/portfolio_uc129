@@ -73,7 +73,7 @@ const Certifications = () => {
 
 
 
-                <div className="w-40 h-[2px] bg-black absolute top-[30%] right-[8.72%]"></div>
+                <div className="w-40 h-[2px] bg-black relative top-[30%] right-[0%]"></div>
 
 
 
