@@ -1,13 +1,86 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .pause {
+    animation-play-state: paused;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+@font-face {
+  font-family: 'Moret-Bold';
+  src: url('../public/assets/fonts/moret/Moret-Bold.otf') format('otf');
+  font-style: bold;
+};
+
+@font-face {
+  font-family: 'Moret-Book';
+  src: url('../public/assets/fonts/moret/Moret-Book.otf') format('otf');
+  font-style: thin;
+};
+
+
+@font-face {
+  font-family: 'Moret-Black';
+  src: url('../public/assets/fonts/moret/Moret-Extrabold.otf') format('otf');
+  font-style: bold;
+}
+
+
+@font-face {
+  font-family: 'Moret';
+  src: url('../public/assets/fonts/moret/Moret-Regular.otf') format('otf');
+  font-style: normal;
+}
+
+body,html {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+};
+
+body::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: yellow;
+}
+
+body::selection {
+  color: red;
+  background: yellow;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+};
+
+
+
+.honk-<uniquifier> {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

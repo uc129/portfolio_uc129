@@ -1,0 +1,16 @@
+@keyframes translateY {
+    0% {
+        transform: translateY(-60%);
+    }
+    10%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-10%);
+    }
+}
+
+.sidebar {
+    animation: translateY 10s linear 1s infinite normal forwards;
+}

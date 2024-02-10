@@ -1,0 +1,66 @@
+/* locked */
+@keyframes moveRight {
+  0% {
+    transform: translateX(-240%);
+   
+  }
+100% {
+    transform: translateX(-52%);
+  }
+}
+
+/* ///locked */
+@keyframes moveLeft {
+  0% {
+    transform: translateX(-52%);
+    
+  }
+   
+  100% {
+    transform: translateX(-240%);
+  }
+}
+
+
+
+@keyframes translateY {
+    0% {
+        transform: translateY(-60%);
+    }
+    10%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-10%);
+    }
+}
+
+
+.goRight{
+    animation: moveRight 20s linear infinite;
+}
+
+.goLeft{
+    animation: moveLeft 20s linear infinite forwards;
+}
+.animated-element {
+  opacity: 0;
+  transition: opacity .8s cubic-bezier(.25,.46,.45,.94)
+}
+
+tag-cloud__item {
+  transition: all .4s cubic-bezier(.215,.61,.355,1)
+}
+
+.tag-cloud {
+  
+}
+
+.tag-cloud__item {
+  
+}
+
+/* <span class="tag-cloud__item" style="opacity: 0.623; transform: translate3d(-128.75px, -151.53px, 0px) scale(0.934);">ReactJS</span> */
+
+    
