@@ -5,7 +5,7 @@ const LandingPage = () => {
 
     return (
         <>
-            <div className=" w-[1750px]  min-h-[100vh] xl:mr-[20px]">
+            <div className=" w-[2050px]  min-h-[100vh] xl:mr-[20px]">
 
                 <div className="absolute w-[96vw] min-w-[1540px] bg-[#282c2f] h-full -z-10 overflow-y-hidden">
                     <img src="/assets/images/fog2.webp" alt="fog2" className="   min-w-[3400px] min-h-[200vh] fog_image2 " />
