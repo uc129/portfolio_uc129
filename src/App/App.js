@@ -34,7 +34,7 @@ function App() {
 
   return (
 
-    <div className='flex w-[400vw] '>
+    <div className='flex w-[480vw] '>
       <SidebarNav />
       <Layout>
         <LandingPage />

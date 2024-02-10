@@ -52,22 +52,24 @@ const Certifications = () => {
 
 
 
-                <ul className="h-full px-14 py-24 w-[40vw] min-w-[500px] flex flex-col gap-44">
+                <ul className=" px-14  w-[40vw]  min-w-[700px] flex justify-center items-center ">
 
-                    {CertificationData.map((certification, index) => {
-                        return (
-                            <li key={index} className="flex flex-col gap-3">
-                                <p className="text-sm font-bold text-pink-300">{certification.id}</p>
-                                <h1 className="text-5xl tracking-tight font-cute">{certification.title}</h1>
+                    <div className="h-[70%] flex flex-col gap-28  ">
+                        {CertificationData.map((certification, index) => {
+                            return (
+                                <li key={index} className="flex flex-col gap-3">
+                                    <p className="text-sm font-bold text-pink-300">{certification.id}</p>
+                                    <h1 className="text-5xl tracking-tight font-cute">{certification.title}</h1>
 
-                                <div className="flex gap-2 items-center">
-                                    <div className="h-[2px] w-4 bg-gray-300"></div>
-                                    <p className="text-sm text-gray-400">{certification.tag}</p>
+                                    <div className="flex gap-2 items-center">
+                                        <div className="h-[2px] w-4 bg-gray-300"></div>
+                                        <p className="text-sm text-gray-400">{certification.tag}</p>
 
-                                </div>
-                            </li>
-                        )
-                    })}
+                                    </div>
+                                </li>
+                            )
+                        })}
+                    </div>
 
                 </ul>
 

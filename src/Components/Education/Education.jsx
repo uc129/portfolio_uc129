@@ -36,21 +36,22 @@ const Education = () => {
 
 
     return (
-        <div className=" text-white min-w-[3200px]" style={{ background: "url('/assets/images/gif/noise.gif')" }} >
+        <div className=" text-white min-w-[2400px]" style={{ background: "url('/assets/images/gif/noise.gif')" }} >
 
-            <div className=" min-w-full pr-44 flex items-center z-10 h-screen bg-[#202428] bg-opacity-95">
+            <div className=" w-full pr-44 flex items-center z-10 h-screen bg-[#202428] bg-opacity-95">
 
-                <div className="h-[80%] p-14 flex flex-col justify-between min-w-[60vw] px-24">
+                <div className="h-[80%] p-14 flex flex-col justify-between w-full px-24">
 
                     <h1 className="font-bold font-black-ops text-[5em] tracking-tighter">Currently based in
                         <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }} className="font-thin" > Sydney</span>
                     </h1>
 
-                    <div className="flex  gap-16">
-                        <p className="w-1/3 md:text-justify">Providing fullstack development and testing services at Certis,
+                    <div className="flex  justify-between">
+
+                        <p className="w-[40%] md:text-justify">Providing fullstack development and testing services at Certis,
                             I collaborate remotely with a team of awesome people from different corners of the world.
                         </p>
-                        <p className="w-1/3 md:text-justify">
+                        <p className="w-[40%] md:text-justify">
                             Writing my thesis on the dynamics of user motivation in Web3,
                             I investigate how blockchain and gamification are reshaping user engagement and incentive structures.
                         </p>
