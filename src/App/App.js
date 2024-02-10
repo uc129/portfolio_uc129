@@ -19,20 +19,22 @@ function App() {
     if (!event.deltaY) {
       return;
     }
-    var scrollFactor = 0.4;
+    var scrollFactor = 0.1;
     var element = event.currentTarget;
     element.scrollLeft += (event.deltaY + event.deltaX) * scrollFactor;
-    event.preventDefault();
+
   }
 
-  var element = document.scrollingElement || document.documentElement;
+  var element = document.documentElement;
+
+
   element.addEventListener('wheel', transformScroll);
 
 
 
   return (
 
-    <div className='flex w-[400vw] overflow-y-hidden'>
+    <div className='flex w-[400vw] overflow-y-hidden '>
       <SidebarNav />
       <Layout>
         <LandingPage />

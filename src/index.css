@@ -49,6 +49,10 @@ body,html {
   -moz-osx-font-smoothing: grayscale;
 };
 
+html{
+  scroll-behavior: smooth;
+}
+
 body::-moz-selection { /* Code for Firefox */
   color: red;
   background: yellow;
