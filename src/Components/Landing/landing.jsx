@@ -5,9 +5,9 @@ const LandingPage = () => {
 
     return (
         <>
-            <div className="  min-w-[96vw] min-h-[100vh] overflow-hidden ">
+            <div className="  w-[96vw] min-w-[520px]  min-h-[100vh] overflow-hidden ">
 
-                <div className="absolute max-w-[96vw] w-[96vw] bg-[#282c2f] h-full -z-10 overflow-y-hidden">
+                <div className="absolute w-[96vw] min-w-[520px] bg-[#282c2f] h-full -z-10 overflow-y-hidden">
                     <img src="/assets/images/fog2.webp" alt="fog2" className=" relative  min-w-[600vw] min-h-[200vh] fog_image2 " />
                     <img src="/assets/images/fog1.webp" alt="fog1" className="fog_image1 min-w-[300vw] min-h-[200vh]" />
                     <img src="/assets/images/fog2.webp" alt="fog2" className=" relative  min-w-[600vw] min-h-[200vh] fog_image2 " />
