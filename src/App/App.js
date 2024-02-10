@@ -34,7 +34,7 @@ function App() {
 
   return (
 
-    <div className='flex w-[400vw] overflow-y-hidden '>
+    <div className='flex w-[400vw] '>
       <SidebarNav />
       <Layout>
         <LandingPage />
