@@ -20,9 +20,9 @@ const LandingPage = () => {
 
 
                 <nav className=' flex w-full justify-between p-4'>
-                    <img src="/assets/svg/logo1.svg" alt="logo" className='ml-8 w-[12em]' />
-                    <div className='min-w-[204px] h-10 overflow-y-hidden ' style={{ textWrap: 'nowrap' }}>
-                        <p className='skills w-full text-white  text-2xl'> Search Engine Optimization Frontend Development Responsive Websites</p>
+                    <img src="/assets/svg/logo.svg" alt="logo" className='ml-8 w-[12em]' />
+                    <div className=' w-[400px] h-10 overflow-y-hidden ' style={{ textWrap: 'nowrap' }}>
+                        <p className='skills w-full text-white  text-2xl'> Search Engine Optimization Frontend Development Responsive Websites </p>
                     </div>
                 </nav>
 

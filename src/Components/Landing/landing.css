@@ -47,14 +47,11 @@
 
 @keyframes translateX {
     0%{
-        transform: translateX(50%);
-        opacity:0
-    }
-    10%{
-        opacity: 1
+        transform: translateX(100%);
+        
     }
     100%{
-        transform: translateX(-250%);
+        transform: translateX(-180%);
         opacity: 1
     }
 }

@@ -14,7 +14,7 @@ const SidebarNav = () => {
 
                 <button><RxHamburgerMenu size={'2em'} /></button>
 
-                <img src="/logo192.png" alt="logo" className=" w-14" />
+                <img src="/logo.svg" alt="logo" className=" w-14" />
 
                 <div className="flex flex-col gap-8 ">
                     <FaSquareXTwitter size={'1.2em'} />
