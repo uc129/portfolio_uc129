@@ -22,7 +22,7 @@ const ProjectsData = [
         title: 'E-commerce Platform | Novel Nook',
         description: 'An online shopping platform',
         image: 'https://res.cloudinary.com/drqofmj2h/image/upload/v1707387112/ecommerce_ihoxfw.jpg',
-        link: 'https://e-commerce-platform.vercel.app',
+        link: 'https://nextjs-commerce-mu-tan.vercel.app',
         company: 'Novel Nook'
     },
     {

@@ -48,10 +48,10 @@ const Education = () => {
 
                     <div className="flex  justify-between">
 
-                        <p className="w-[40%] md:text-justify">Providing fullstack development and testing services at Certis,
+                        <p className="w-[35%] md:text-justify">Providing fullstack development and testing services at Certis,
                             I collaborate remotely with a team of awesome people from different corners of the world.
                         </p>
-                        <p className="w-[40%] md:text-justify">
+                        <p className="w-[35%] md:text-justify">
                             Writing my thesis on the dynamics of user motivation in Web3,
                             I investigate how blockchain and gamification are reshaping user engagement and incentive structures.
                         </p>
