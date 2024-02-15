@@ -16,11 +16,7 @@ module.exports = {
       fontFamily: {
         'cute': ['Cute Font'],
         'black-ops': ['Black Ops One'],
-        'honk': ['Honk'],
-        'moret': ['Moret'],
-        'moret-bold': ['Moret-Bold'],
-        'moret-book': ['Moret-Book'],
-        'moret-black': ['Moret-Black'],
+        'rubik': ['Rubik Mono One'],
 
       },
       animation: {

@@ -20,11 +20,13 @@ const ListBox = ({ date, title, description, location }) => {
             onMouseMove={handleMouseMove}
         >
 
-            <h3 className="text-pink-300 text-sm font-bold">{date}</h3>
+            <h3 className="text-pink-300 text-sm font-bold pb-4">{date}</h3>
 
-            <div className="flex justify-between font-cute  ">
-                <p className="text-black tracking-wide">{title}</p>
-                <p className="text-gray-400">{description}</p>
+            <div className="flex justify-between font-rubik leading-2">
+                <p className="text-black tracking-tight text-[0.7em] leading-none">{title}</p>
+                <div className="w-1/3">
+                    <p className="text-gray-400 text-[0.4em] leading-none ">{description}</p>
+                </div>
             </div>
 
             <div className="flex items-center gap-3">

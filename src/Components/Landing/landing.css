@@ -27,7 +27,7 @@
 }
 
 .skills{
-    animation: translateX 14s linear infinite  ;
+    animation: translateX 18s linear infinite  ;
 }
 
 
@@ -51,7 +51,7 @@
         
     }
     100%{
-        transform: translateX(-180%);
+        transform: translateX(-240%);
         opacity: 1
     }
 }

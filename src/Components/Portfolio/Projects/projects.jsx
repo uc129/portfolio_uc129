@@ -7,11 +7,11 @@ import ScrollSidebar from '../../ScrollSidebar/ScrollSidebar';
 const Projects = () => {
 
     return (
-        <div className="works min-w-screen h-screen flex   ">
+        <div className="works min-w-screen h-screen flex  bg-white  ">
 
             <div className='flex'>
 
-                <ScrollSidebar text='Projects' lineHeightEm='6' length={6} />
+                <ScrollSidebar text='Projects' lineHeightEm='8' length={6} animationDuration={4} />
 
 
                 <div className="body flex   h-screen justify-center items-center border-l-2 pl-12 border-gray-300  min-w-[94vw] pr-24">

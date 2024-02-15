@@ -31,7 +31,7 @@ const Certifications = () => {
             <div className="h-full w-full flex bg-opacity-[98%] bg-white z-10">
 
                 <div className="border-r-[2px] border-gray-300">
-                    <ScrollSidebar text='Certifications' lineHeightEm='9' length={4} />
+                    <ScrollSidebar text='Certifications' lineHeightEm='13' length={4} animationDuration={8} />
                 </div>
 
                 <div className="mt-12 p-12">

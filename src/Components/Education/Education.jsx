@@ -36,13 +36,13 @@ const Education = () => {
 
 
     return (
-        <div className=" text-white min-w-[2400px]" style={{ background: "url('/assets/images/gif/noise.gif')" }} >
+        <div className=" text-white  " style={{ background: "url('/assets/images/gif/noise.gif')" }} >
 
-            <div className=" w-full pr-44 flex items-center z-10 h-screen bg-[#202428] bg-opacity-95">
+            <div className=" w-[2420px] pr-44 flex items-center z-10 h-screen bg-[#202428] bg-opacity-95">
 
-                <div className="h-[80%] p-14 flex flex-col justify-between w-full px-24">
+                <div className="w-[1200px] h-[80%] p-14 flex flex-col justify-between px-24">
 
-                    <h1 className="font-bold font-black-ops text-[5em] tracking-tighter">Currently based in
+                    <h1 className="font-bold font-rubik text-[3.4em] tracking-tighter">Currently based in
                         <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }} className="font-thin" > Sydney</span>
                     </h1>
 
@@ -59,11 +59,28 @@ const Education = () => {
                 </div>
 
                 {/* Text Scroll */}
-                <div className="h-full min-w-[50vw] ">
+                <div className="h-full w-[30vw] min-w-[740px]  flex flex-col">
 
-                    <div className="flex flex-col justify-between  bg-pink-300 h-[30%] font-black font-mono text-white uppercase  w-[50vw] min-w-[540px] overflow-hidden pt-4">
+                    <div className="flex flex-col justify-between  bg-pink-300 
+                    h-[30%] font-black font-rubik text-white uppercase 
+                    w-full overflow-hidden pt-4 *:text-6xl *:flex *:gap-8">
 
-                        <p className="text-7xl goLeft flex gap-8">
+                        <p className="goLeft">
+                            Education
+                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
+                            Education
+                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
+                            Education
+                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
+                            Education
+                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
+                            Education
+                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
+                            Education
+                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
+                            Education
+                        </p>
+                        <p className="goLeft">
                             Education
                             <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
                             Education
@@ -79,23 +96,7 @@ const Education = () => {
                             Education
                         </p>
 
-                        <p className="text-7xl goRight flex gap-8">
-                            Education
-                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
-                            Education
-                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
-                            Education
-                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
-                            Education
-                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
-                            Education
-                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
-                            Education
-                            <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
-                            Education
-                        </p>
-
-                        <p className="text-7xl goLeft flex gap-8">
+                        <p className="goLeft ">
                             Education
                             <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
                             Education
@@ -114,7 +115,7 @@ const Education = () => {
                     </div>
 
                     {/* Study */}
-                    <div className='h-[70%] min-w-[540px] '>
+                    <div className='h-[70%]  w-full '>
                         <h1 className='text-[1.7em] font-black pt-4  '>STUDY</h1>
 
                         <div className='flex flex-col justify-between gap-4 bg-white'>
@@ -136,7 +137,7 @@ const Education = () => {
 
                 </div>
 
-                <div className=' flex justify-center items-center min-w-[300px] w-[40vw] ml-24 '>
+                <div className=' ml-[200px] flex justify-center items-center min-w-[300px] w-[40vw] '>
                     <div className='skills-list w-full h-full flex gap-12 flex-wrap justify-center items-center '>
                         {SkillsData.map((skill, index) =>
                             <motion.div

@@ -1,16 +1,24 @@
 @keyframes translateY {
     0% {
-        transform: translateY(-60%);
+        transform: translateY(60%);
     }
     10%{
         opacity: 1;
     }
     100% {
         opacity: 1;
-        transform: translateY(-10%);
+        transform: translateY(-40%);
     }
 }
 
 .sidebar {
-    animation: translateY 10s linear 1s infinite normal forwards;
+    animation: translateY 12s linear 1s infinite normal forwards;
+}
+
+.sidebar-4 {
+    animation: translateY 4s linear 1s infinite normal forwards;
+}
+
+.sidebar-8 {
+    animation: translateY 8s linear 1s infinite normal forwards;
 }
