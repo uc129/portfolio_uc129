@@ -1,5 +1,5 @@
 import './Scroll.css'
-import { animate, motion } from 'framer-motion';
+
 const ScrollSidebar = ({ text, lineHeightEm = 6, length, animationDuration }) => {
 
     const textArray = Array.from({ length: length }, () => text);

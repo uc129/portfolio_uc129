@@ -1,8 +1,7 @@
-import { RxHamburgerMenu } from "react-icons/rx";
-import { FaSquareXTwitter } from "react-icons/fa6";
+
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+
 
 const SidebarNav = () => {
 
