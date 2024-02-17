@@ -5,12 +5,12 @@ const LandingPage = () => {
 
     return (
         <>
-            <div className=" w-screen  min-h-[100vh]">
+            <div className=" min-w-screen  min-h-[100vh]">
 
-                <div className="absolute w-[200vw] bg-[#282c2f] h-full -z-10 overflow-y-hidden pointer-events-none">
-                    <img src="/assets/images/fog2.webp" alt="fog2" className=" w-[200vw] fog_image2 " />
-                    <img src="/assets/images/fog1.webp" alt="fog1" className="fog_image1 w-[200vw] " />
-                    <img src="/assets/images/fog2.webp" alt="fog2" className="   w-[200vw]  fog_image2 " />
+                <div className="absolute w-[250vw] bg-[#282c2f] h-full -z-10 overflow-y-hidden pointer-events-none">
+                    <img src="/assets/images/fog2.webp" alt="fog2" className=" w-[250vw] fog_image2 " />
+                    <img src="/assets/images/fog1.webp" alt="fog1" className="fog_image1 w-[250vw] " />
+                    <img src="/assets/images/fog2.webp" alt="fog2" className="   w-[250vw]  fog_image2 " />
                 </div>
 
 
@@ -31,10 +31,10 @@ const LandingPage = () => {
                     <div className='flex flex-col justify-center items-center '>
                         <div className='border-y-2 border-white py-8'>
                             {/* <h1 style={{ lineHeight: 1 }} className='uppercase text-[8rem]  font-bold  text-center text-white'> Fullstack <br /> developer</h1> */}
-                            <img src="/assets/svg/fullstack.svg" alt="fullstack" className='w-[24em] md:w-[42em] pointer-events-none' />
+                            <img src="/assets/svg/fullstack.svg" alt="fullstack" className='w-[24em] md:w-[42em] p-4 pointer-events-none' />
                         </div>
                         {/* <h3 className='uppercase text-white text-8xl font-black-ops'>PORTFOLIO</h3>  */}
-                        <img src="/assets/svg/portfolio.svg" alt="fullstack" className='mt-4 p-4 w-[22em]  pointer-events-none ' />
+                        <img src="/assets/svg/portfolio.svg" alt="fullstack" className='mt-4 p-4 w-[20em]  pointer-events-none ' />
 
 
                         <div className='text-center text-white pt-12 w-[80%]  lg:w-[70%] mx-auto *:py-4'>

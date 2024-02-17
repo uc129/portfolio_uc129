@@ -21,14 +21,16 @@ function App() {
     }
     var scrollFactor = 0.1;
     var element = event.currentTarget;
-    element.scrollLeft += (event.deltaY + event.deltaX) * scrollFactor;
-
+    element.scrollLeft += (event.deltaY + event.deltaX) * 5 * scrollFactor;
   }
-
   var element = document.documentElement;
 
-
   element.addEventListener('wheel', transformScroll);
+
+
+
+
+
 
 
 
