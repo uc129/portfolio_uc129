@@ -80,7 +80,7 @@ const Education = () => {
                             <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
                             Education
                         </p>
-                        <p className="goLeft">
+                        <p className="goRight">
                             Education
                             <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > Education</span>
                             Education

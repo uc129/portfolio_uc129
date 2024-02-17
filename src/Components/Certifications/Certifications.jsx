@@ -2,6 +2,7 @@ import Card from "../Cards/Card";
 import ScrollSidebar from "../ScrollSidebar/ScrollSidebar"
 import { CertificationData } from "../../utils/certificationData";
 
+
 const Certifications = () => {
 
 
@@ -57,14 +58,13 @@ const Certifications = () => {
                     <div className="h-[70%] flex flex-col gap-28  ">
                         {CertificationData.map((certification, index) => {
                             return (
-                                <li key={index} className="flex flex-col gap-3">
+                                <li key={index} className="flex flex-col gap-3 font-rubik">
                                     <p className="text-sm font-bold text-pink-300">{certification.id}</p>
-                                    <h1 className="text-5xl tracking-tight font-cute">{certification.title}</h1>
+                                    <h1 className="text-2xl tracking-widest ">{certification.title}</h1>
 
                                     <div className="flex gap-2 items-center">
                                         <div className="h-[2px] w-4 bg-gray-300"></div>
                                         <p className="text-sm text-gray-400">{certification.tag}</p>
-
                                     </div>
                                 </li>
                             )

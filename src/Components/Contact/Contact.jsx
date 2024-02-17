@@ -1,3 +1,5 @@
+import './Contact.css'
+
 const Contact = () => {
 
 
@@ -9,8 +11,11 @@ const Contact = () => {
 
                 <div className="h-full flex flex-col justify-center items-center gap-44 pt-14 ">
 
-                    <h1 className="text-[10em] tracking-tight leading-[0.8em] text-center px-18 mx-auto font-cute font-bold">
-                        Let's build <br />something   <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > cool</span> <br /> together
+                    <h1 className="text-[3.6em] lg:text-[5em]  tracking-tight leading-[1em] text-center px-18 mx-auto font-rubik font-bold">
+                        Let's build
+                        <br />something
+                        <span className="cool tracking-widest scale-150" style={{ WebkitTextStroke: '1px white', color: 'transparent' }}  > cool</span>
+                        <br /> together
                     </h1>
 
                     <div className="flex flex-col justify-center items-center gap-12 -mt-24">
