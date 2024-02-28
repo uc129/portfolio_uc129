@@ -8,15 +8,15 @@ const CertificationData = [
 
     {
         id: '02',
-        title: 'Blockchain Developer',
-        tag: 'Udemy',
+        title: 'HTML,CSS and PHP Certified Developer',
+        tag: 'CSDT IT Institute',
 
     },
 
     {
         id: '03',
-        title: 'Alchemy Certified Ethereum Developer',
-        tag: 'Alchemy University',
+        title: 'React Developer Certificate',
+        tag: 'W3 Schools',
     }
 
 ]

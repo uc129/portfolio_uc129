@@ -17,6 +17,7 @@ module.exports = {
         'cute': ['Cute Font'],
         'black-ops': ['Black Ops One'],
         'rubik': ['Rubik Mono One'],
+        'gothic': ['Bank Gothic']
 
       },
       animation: {

@@ -20,8 +20,8 @@ const LandingPage = () => {
                     <img src="/assets/svg/logo.svg" alt="logo" className='mx-8 w-[6em] ' />
 
                     {/*  */}
-                    <div className=' w-[400px] h-10 overflow-y-hidden ' style={{ textWrap: 'nowrap' }}>
-                        <p className='skills w-full text-white font-bold font-mono text-xl'> Search Engine Optimization | Frontend Development | API Development | Responsive Websites </p>
+                    <div className=' w-[400px] h-10 overflow-y-hidden f ' style={{ textWrap: 'nowrap' }}>
+                        <p className='skills w-full text-white font-bold font-mono text-xl flex '> Search Engine Optimization | Frontend Development | API Development | Responsive Websites </p>
                     </div>
                 </nav>
 
@@ -30,14 +30,14 @@ const LandingPage = () => {
 
                     <div className='flex flex-col justify-center items-center '>
                         <div className='border-y-2 border-white py-8'>
-                            {/* <h1 style={{ lineHeight: 1 }} className='uppercase text-[8rem]  font-bold  text-center text-white'> Fullstack <br /> developer</h1> */}
+                            {/* <h1 style={{ lineHeight: 1 }} className='uppercase text-[8rem] font__gothic font-bold  text-center text-white'> Fullstack <br /> developer</h1> */}
                             <img src="/assets/svg/fullstack.svg" alt="fullstack" className='w-[24em] md:w-[42em] p-4 pointer-events-none' />
                         </div>
                         {/* <h3 className='uppercase text-white text-8xl font-black-ops'>PORTFOLIO</h3>  */}
                         <img src="/assets/svg/portfolio.svg" alt="fullstack" className='mt-4 p-4 w-[20em]  pointer-events-none ' />
 
 
-                        <div className='text-center text-white pt-12 w-[80%]  lg:w-[70%] mx-auto *:py-4'>
+                        <div className='text-center font__gothic text-white pt-12 w-[80%]  lg:w-[70%] mx-auto *:py-4'>
                             <p>Enthusiastic web developer skilled in HTML/CSS, PHP, and the MERN Stack, with expertise in React, TypeScript, and NodeJS.</p>
                             <p> Dedicated to creating innovative and scalable solutions, from dynamic React apps to advanced projects using Express and MongoDB.</p>
                         </div>

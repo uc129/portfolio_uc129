@@ -11,11 +11,11 @@ const Project = ({ project, index }) => {
             <div className="flex flex-col gap-4 ">
                 <h1 className="font-bold text-pink-400">Featured</h1>
 
-                <div className="flex flex-col ">
-                    <h1 className="text-2xl tracking-[-0.08em] font-rubik">{project.title}</h1>
+                <div className="flex flex-col  font__gothic">
+                    <h1 className="text-2xl tracking-[0.08em]  font-bold">{project.title}</h1>
                     <div className="flex items-center gap-2">
                         <div className="w-10 h-[2px]  bg-gray-400"></div>
-                        <p className="text-gray-400 font-mono text-sm">{project.company}</p>
+                        <p className="text-gray-400  text-sm">{project.company}</p>
                     </div>
                     <h3 className="">{project.description}</h3>
                 </div>

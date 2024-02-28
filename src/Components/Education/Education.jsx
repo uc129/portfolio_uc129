@@ -40,7 +40,7 @@ const Education = () => {
 
             <div className=" w-[2420px] pr-44 flex items-center z-10 h-screen bg-[#202428] bg-opacity-95">
 
-                <div className="w-[1200px] h-[80%] p-14 flex flex-col justify-between px-24">
+                <div className="w-[1500px] h-[80%] p-14 flex flex-col justify-between px-24">
 
                     <h1 className="font-bold font-rubik text-[3.4em] tracking-tighter">Currently based in
                         <span style={{ WebkitTextStroke: '1px white', color: 'transparent' }} className="font-thin" > Sydney</span>
@@ -48,10 +48,10 @@ const Education = () => {
 
                     <div className="flex  justify-between">
 
-                        <p className="w-[35%] md:text-justify">Providing fullstack development and testing services at Certis,
+                        <p className="w-[44%] xl:text-justify">Providing fullstack development and testing services at Certis,
                             I collaborate remotely with a team of awesome people from different corners of the world.
                         </p>
-                        <p className="w-[35%] md:text-justify">
+                        <p className="w-[44%] md:text-justify">
                             Writing my thesis on the dynamics of user motivation in Web3,
                             I investigate how blockchain and gamification are reshaping user engagement and incentive structures.
                         </p>
@@ -59,11 +59,11 @@ const Education = () => {
                 </div>
 
                 {/* Text Scroll */}
-                <div className="h-full w-[30vw] min-w-[740px]  flex flex-col">
+                <div className="h-full w-[30vw] min-w-[740px]  flex flex-col justify-between items-center">
 
                     <div className="flex flex-col justify-between  bg-pink-300 
-                    h-[30%] font-black font-rubik text-white uppercase 
-                    w-full overflow-hidden pt-4 *:text-6xl *:flex *:gap-8">
+                    h-[30%] font-black font__gothic text-white uppercase 
+                    w-full overflow-hidden pt-4 *:text-8xl *:flex *:gap-8 ">
 
                         <p className="goLeft">
                             Education
@@ -138,7 +138,7 @@ const Education = () => {
                 </div>
 
                 <div className=' ml-[200px] flex justify-center items-center min-w-[300px] w-[40vw] '>
-                    <div className='skills-list w-full h-full flex gap-12 flex-wrap justify-center items-center '>
+                    <div className='skills-list w-full h-full font-rubik text-xs flex gap-12 flex-wrap justify-center items-center '>
                         {SkillsData.map((skill, index) =>
                             <motion.div
                                 key={index}

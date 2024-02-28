@@ -7,10 +7,10 @@ const Certifications = () => {
 
 
     const CardDetails = {
-        title: 'Web3 Developer',
-        description: 'Alchemy University',
-        tag: 'Alchemy',
-        image: 'https://res.cloudinary.com/drqofmj2h/image/upload/v1707549187/Screenshot_2024-02-10_at_6.12.04_pm_mwef2e.png'
+        title: 'React Developer Certification',
+        description: 'W3 Schools',
+        tag: 'W3Schools',
+        image: 'https://res.cloudinary.com/drqofmj2h/image/upload/v1709095884/Portfolio/a1yaj5njlfzxv0gvzss4.png'
     }
     const handleMouseMove = (e) => {
 
@@ -40,10 +40,10 @@ const Certifications = () => {
                     <div
                         onMouseMove={handleMouseMove}
                         onMouseLeave={(e) => { e.target.style.transform = `perspective(800px) rotateY(0deg) rotateX(0deg) scale3d(1, 1, 1)` }}
-                        className="certification-card h-[550px] w-[550px]  bg-center bg-no-repeat bg-contain"
+                        className="certification-card h-[620px] w-[620px]  bg-center bg-no-repeat bg-contain"
                     >
                         <div
-                            className=" h-[530px] w-[530px]  bg-center bg-no-repeat bg-contain" style={{ backgroundImage: `url(${CardDetails.image})` }} >
+                            className=" h-[580px] w-[580px]  bg-center bg-no-repeat bg-contain" style={{ backgroundImage: `url(${CardDetails.image})` }} >
                         </div>
                     </div>
 
@@ -55,12 +55,12 @@ const Certifications = () => {
 
                 <ul className=" px-14  w-[40vw]  min-w-[700px] flex justify-center items-center ">
 
-                    <div className="h-[70%] flex flex-col gap-28  ">
+                    <div className="h-[70%] flex flex-col gap-28 font__gothic ">
                         {CertificationData.map((certification, index) => {
                             return (
-                                <li key={index} className="flex flex-col gap-3 font-rubik">
+                                <li key={index} className="flex flex-col gap-3 ">
                                     <p className="text-sm font-bold text-pink-300">{certification.id}</p>
-                                    <h1 className="text-2xl tracking-widest ">{certification.title}</h1>
+                                    <h1 className="text-xl font-mono font-bold tracking-widest ">{certification.title}</h1>
 
                                     <div className="flex gap-2 items-center">
                                         <div className="h-[2px] w-4 bg-gray-300"></div>
@@ -75,7 +75,7 @@ const Certifications = () => {
 
 
 
-                <div className="w-40 h-[2px] bg-black relative top-[30%] right-[0%]"></div>
+                <div className="w-20 md:w-30 lg:w-40 h-[2px] bg-black relative top-[30%] right-[0%]"></div>
 
 
 

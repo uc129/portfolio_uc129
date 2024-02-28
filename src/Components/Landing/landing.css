@@ -30,6 +30,11 @@
     animation: translateX 18s linear infinite  ;
 }
 
+.font__gothic {
+    font-family: 'Bank Gothic', sans-serif;
+
+}
+
 
 @keyframes fog2 {
     0%{

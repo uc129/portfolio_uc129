@@ -13,7 +13,7 @@ const SidebarNav = () => {
 
                 {/* <button><RxHamburgerMenu size={'2em'} /></button> */}
 
-                <img src="./logo.svg" alt="logo" className=" mt-12 w-14 scale-[2] -rotate-90" />
+                <img src="/logo.svg" alt="logo" className=" mt-12 w-14 scale-[2] -rotate-90" />
 
                 <div className="flex flex-col gap-8 ">
                     {/* <a target="_blank" rel={'noreferrer'} href="https://twitter.com/iamutkarsh12"> <FaSquareXTwitter size={'1.2em'} /></a>
